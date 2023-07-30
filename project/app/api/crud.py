@@ -16,3 +16,8 @@ async def get(id: int) -> SummarySchema | None:
     if summary:
         return summary
     return None
+
+
+async def get_all() -> list[SummarySchema]:
+    summaries = await TextSummary.all().values()
+    return summaries
