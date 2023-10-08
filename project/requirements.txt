@@ -6,9 +6,3 @@ httpx==0.23.3
 newspaper3k==0.2.8
 tortoise-orm==0.19.3
 uvicorn==0.21.1
-black==23.1.0
-flake8==6.0.0
-isort==5.12.0
-pytest==7.2.2
-pytest-cov==4.0.0
-pytest-xdist==3.2.1
